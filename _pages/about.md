@@ -2,12 +2,12 @@
 #layout: about
 layout: about_banner
 banner: "/assets/img/web_banner.jpg"   #this does not specify the lcoation of top banner, the lcoation need to be set in _custom this just can not be empty.
-banner_title:    "Advancing intuitive human–machine interfaces and personalized robotic interventions through interdisciplinary innovation"
+banner_title:    "CROWN Lab @ HKUST(GZ)s"
 banner_subline:  ""
 title: About
 permalink: /
 subtitle:
-hire_banner_title: "We are looking for enthusiastic candidates to conduct PhD research. If you are interested in joining us, please contact zhenhong.li@manchester.ac.uk"
+hire_banner_title: "We are looking for enthusiastic candidates to conduct PhD research. If you are interested in joining us, please contact luwenyu@hkust-gz.edu.cn"
 
 
 # profile:
@@ -38,9 +38,10 @@ latest_posts:
 ---
 
 
-Welcome to the Neurorobotics Lab (NRL) at the University of Manchester. Led by [Dr. Zhenhong Li](https://zhenhong-li.github.io/), we conduct research at the intersection of neuroscience, biomechanics, and robotics, with a focus on brain–computer interfaces, neuromusculoskeletal modeling, and robot-assisted interventions.  We aim to understand human neuromechanical function, advance physiological signal processing, and develop intelligent control systems for assistive and medical robots.  Our mission is to develop human-centered assistive and rehabilitative technologies to improve quality of life through interdisciplinary innovation.
+Welcome to the CROWN Lab at The Hong Kong University of Science and Technology (Guangzhou). Led by Dr. Luwen Yu, we conduct evidence-based colour research at the intersection of design, psychology, optics, statistics, data science, and AI. Our work focuses on understanding how colour and visual environments shape human perception, cognition, behaviour, and wellbeing. We combine behavioural experiments, multimodal measurements, and computational approaches to investigate human responses to colour across digital media, built environments, and interactive contexts. Our mission is to advance human-centred and evidence-based colour research, and to translate this knowledge into design, technology, and real-world applications.
+ 
+We welcome students from a wide range of backgrounds, including design, psychology, optics, statistics, data science, and AI.
 
-We welcome students from a wide range of backgrounds: biomedical engineering, mechanical engineering, computer science, control engineering, and robotics.
 
 <!-- Swiper CSS: 使用 Liquid 标签修复路径 -->   
 <link rel="stylesheet" href="{{ '/assets/css/swiper-bundle.min.css' | relative_url }}"/>
