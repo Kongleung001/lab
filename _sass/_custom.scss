@@ -1,0 +1,306 @@
+/*  _sass/_custom.scss
+    Makes an element “full-bleed” — it escapes the .container and spans 100 vw  */
+    .full-bleed {
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      width: 100vw;
+    
+      /* Optional tweaks — adjust or remove as you like */
+      // max-height: 260px;   // keep the hero at a nice height
+      object-fit: cover;   // crop the image rather than stretch it
+    }
+
+
+    .hero--top {
+      margin-top: -150px;      /* same value as body padding-top */
+    }
+
+    // .navbar {
+    //   background: rgba(255, 255, 255, 0);   /* 0 = fully transparent, 1 = solid */
+    //   /*box-shadow: 0 0 1rem rgba(0,0,0,.05);    /* optional subtle shadow */
+    //   /*backdrop-filter: blur(6px);              /* “frosted glass” feel (optional) */
+    // }
+
+    // .navbar--hidden {
+    //   transform: translateY(-100%);
+    // }
+
+    // #progress, progress { display: none !important; } /* disable the progressive bar, */
+    //                                       /* if you want to enableplease comment the line*/
+    // .navbar { border-bottom: none !important; } /* disable the botton 1px line below the navigation bar */
+
+/* ────────────────────────────────────────────────────────── */
+/* Inject HEALab logo on every page by styling the navbar   */
+/* ────────────────────────────────────────────────────────── */
+
+/* 1. Make sure the <nav> can show a background image */
+#navbar {
+  background-repeat: no-repeat;
+  // background-position: left center;
+  // background-size: 40px auto; /* constrain to 40px high, auto width */
+  // padding-left: 0rem;         /* room for that 40px logo + gap */
+  /* now draw the logo */
+  // background-image: url('{{ "/assets/img/lab_logo_black2.png" | relative_url }}');
+}
+
+// /* 2. Push the toggler / nav items right so they don’t overlap */
+// #navbar .container {
+//   position: relative;         /* ensure padding-left takes effect */
+// }
+
+// /* 3. (Optional) If you have a brand link on sub-pages, keep it from overlapping the logo */
+// #navbar .navbar-brand {
+//   // margin-left: 0rem;        /* shift it right of the background logo */
+// }
+
+
+:root {
+  --banner-titleblock-width: 30; /* used to define how many characters will be included as one line for the banner text box */
+}
+
+
+
+
+/* this is for the banner slider */ 
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  /* 放在图片内部两侧 */
+  right: 12px; /* 默认 next */
+  left: 12px;  /* 默认 prev */
+  /* 移除大图标 */
+  --swiper-navigation-size: 16px;
+  z-index: 10;
+}
+.mySwiper .swiper-button-prev {
+  left: 12px;
+  right: auto;
+}
+.mySwiper .swiper-button-next {
+  right: 12px;
+  left: auto;
+}
+/* 去掉按钮 hover 默认蓝色 */
+.mySwiper .swiper-button-next, .mySwiper .swiper-button-prev {
+  outline: none;
+  border: none;
+}
+.mySwiper .swiper-button-next::after,
+.mySwiper .swiper-button-prev::after {
+  font-size: 16px !important;
+}
+
+/* 调整分页点（indicator/bullet）的大小和颜色 */
+.mySwiper .swiper-pagination-bullet {
+  width: 18px;         /* 增大宽度 */
+  height: 18px;        /* 增大高度 */
+  // background: #228be6; /* 你喜欢的蓝色，也可以用其他色号 */
+  // opacity: 0.5;
+  // margin: 0 8px !important; /* 点之间的间距 */
+}
+
+/* 激活状态的点 */
+.mySwiper .swiper-pagination-bullet-active {
+  background: var(--global-theme-color);  /* 更深的蓝色，可根据需要修改 */
+  opacity: 1;
+  box-shadow: 0 0 4px rgba(0,0,0,0.15);
+  // border: 2px solid #fff; /* 可选：白色边框让激活点更明显 */
+}
+
+.mySwiper {
+  height: 100vh;
+  width: 100%;
+}
+
+.mySwiper .swiper-slide img {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.mySwiper .swiper-slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* centre the text block */
+.banner-overlay{
+  position: absolute;
+  top: 40%; 
+  // right:clamp(0.1vw, 30%, 22%);
+  right: 50%;
+  // right: 15vw;
+  transform:translate(50%,0);
+  text-align: center;
+  color: var(--overlay-text-color);
+  z-index: 5;
+  // display:inline-block;
+  // text-shadow:0 0 6px rgba(0,0,0,.65);  /* keeps text legible */
+  width: max(80vw,25rem);
+  // width: clamp(calc(var(--banner-titleblock-width)* 1.2rem), calc(var(--banner-titleblock-width)* 2.5vw), calc(var(--banner-titleblock-width)* 2.5rem));                /* prevent super-long titles from overflowing */
+  white-space: normal;           /* allow line breaks           */
+  overflow-wrap: break-word;     /* break long words if needed  */
+}
+
+.banner-hero{
+  // background: var(--hero-bg, url("/assets/img/banner/TMS_banner2.png")) center/cover no-repeat;
+  height: 100vh;
+  // calc(100vh + 2rem);
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;          /* Remove any bottom margin */
+  padding-bottom: 1rem;
+  border-bottom-width: 1rem;
+  position: relative;
+  
+}
+
+
+
+/* setting for logo on about page */
+.banner-overlay img {
+  width: max(15vw,8rem);
+  // object-fit: cover;
+  border-radius: 1rem;
+  /* any more custom styles */
+}
+
+
+/* headline & sub-headline sizes */
+.banner-overlay .banner-title {
+font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  font-weight: 700; 
+  margin: 0;  color: 
+  var(--overlay-text-color);
+}
+
+/*clamp(1.25rem, 1.2vw + 0.5rem, 2rem)*/
+.banner-sub { font-size: 1.25rem; margin: 0.25rem 0 0; }
+
+
+
+    /* generic helper: make any element escape Bootstrap’s .container */
+.breakout {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+}
+
+
+
+
+
+
+/* (optional) a little side-padding so cards don't kiss the window edge */
+// .breakout { padding-left: 0rem; padding-right: 0rem; }
+
+/* Already present – keeps the wrapper as the positioning context */
+.image-overlay {
+  position: relative;
+}
+
+/* NEW – centre the text block perfectly */
+.image-overlay .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);   /* shifts back half its own size */
+  font-size: 2rem;       /* adjust to taste */
+  font-weight: 700;
+  color: var(--overlay-text-color);
+  // text-shadow: 0 0 6px var(--overlay-text-shadow);
+  text-align: center;    /* centre multi-line text */
+  letter-spacing: .03em;
+}
+
+
+.hire-banner {
+  /* Example styles */
+  position: relative;
+  border: 0px solid var(--global-theme-color, #234);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  margin-bottom: -3rem;
+  padding: 0rem;
+  border: 0rem;
+}
+
+.hire-banner img {
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+  /* any more custom styles */
+}
+
+
+.hire-banner .banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);   /* shifts back half its own size */
+  display: flex;               /* Centers child both ways */
+  width: 80vw;
+  text-align: center;
+  // align-items: center;         /* Vertically center */
+  // justify-content: center;     /* Horizontally center */
+  pointer-events: none;        /* Text doesn't block image clicks, optional */
+}
+
+.hire-banner .banner-title{
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-weight: 700; 
+  margin: 0;  color: 
+  var(--overlay-text-color);
+
+}
+
+
+.post-title{
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+/* =========================================
+   Particle Effect Canvas Styles
+   ========================================= */
+#neuroCanvas {
+    position: fixed; /* Fixed positioning, does not scroll */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Place at the bottom */
+    pointer-events: none; /* Allow mouse events to pass through */
+    
+    /* Background is transparent to let the site theme show through */
+    background: transparent;
+}
+
+/* Demo Card Style (Optional) */
+.demo-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
