@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Delsys Trigno™ Wireless EMG System
+title: Konica Minolta CM-17d
 description: 
-img: assets/img/facilities/Delsys.png
+img: assets/img/facilities/fac5.png
 importance: 1
 category: work
 related_publications: false

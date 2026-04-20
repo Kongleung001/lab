@@ -1,8 +1,8 @@
 ---
 layout: page
-title: AMTI Multi Axis Force Plates
+title: Oculus Quest 2
 description: 
-img: assets/img/facilities/AMTI.png
+img: assets/img/facilities/fac7.png
 importance: 1
 category: work
 related_publications: false

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Functional Near-infrared Spectroscopy (FNIRS)
+title: Tobii Pro Nano Eye Tracker
 description: 
-img: assets/img/facilities/FNIRS.JPG
+img: assets/img/facilities/fac2.JPG
 importance: 1
 category: work
 related_publications: false

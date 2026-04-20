@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Gtec USBamp EEG
+title: Jeti specbos 1211UV-2
 description: 
-img: assets/img/facilities/EEG.png
+img: assets/img/facilities/fac4.png
 importance: 1
 category: work
 related_publications: false

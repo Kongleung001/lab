@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Motion Capture System with 10 VICON Cameras
+title: Color Clibration Tool Datacolor Spyder
 description: 
-img: assets/img/facilities/Vicon.png
+img: assets/img/facilities/fac6.png
 importance: 1
 category: work
 related_publications: false

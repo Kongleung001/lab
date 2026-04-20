@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Transcranial Magnetic Stimulation (TMS)
+title: Shimmer3 GSR+ Kit
 description: 
-img: assets/img/facilities/TMS.jpg
+img: assets/img/facilities/fac3.jpg
 importance: 2
 category: work
 related_publications: false
