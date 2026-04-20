@@ -2,7 +2,7 @@
 layout: profiles
 title: Yufan Li 
 description: Computational Aesthetics
-img: assets/img/people/Yufan_Li .png
+img:  
 redirect: 
 year:  
 category: PhD Students
