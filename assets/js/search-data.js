@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/lab/people/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/lab/projects/";
-          },
         },{id: "nav-publications",
           title: "Publications",
           description: "",
@@ -42,62 +35,111 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/lab/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "facilities-bambu-lab-x1-carbon-combo",
+          title: 'Bambu Lab X1 - Carbon Combo',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/10_facilities/";
+            },},{id: "facilities-optical-tracking-and-neuronavigation-system",
+          title: 'Optical Tracking and Neuronavigation System',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/lab/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/11_facilities/";
+            },},{id: "facilities-functional-near-infrared-spectroscopy-fnirs",
+          title: 'Functional Near-infrared Spectroscopy (FNIRS)',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/lab/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/lab/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/lab/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/lab/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/lab/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/lab/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/lab/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/lab/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/lab/projects/9_project/";
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/1_facilities/";
+            },},{id: "facilities-tobii-pro-nano-eye-tracker",
+          title: 'Tobii Pro Nano Eye Tracker',
+          description: "",
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/2_facilities/";
+            },},{id: "facilities-shimmer3-gsr-kit",
+          title: 'Shimmer3 GSR+ Kit',
+          description: "",
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/3_facilities/";
+            },},{id: "facilities-jeti-specbos-1211uv-2",
+          title: 'Jeti specbos 1211UV-2',
+          description: "",
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/4_facilities/";
+            },},{id: "facilities-konica-minolta-cm-17d",
+          title: 'Konica Minolta CM-17d',
+          description: "",
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/5_facilities/";
+            },},{id: "facilities-color-clibration-tool-datacolor-spyder",
+          title: 'Color Clibration Tool Datacolor Spyder',
+          description: "",
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/6_facilities/";
+            },},{id: "facilities-oculus-quest-2",
+          title: 'Oculus Quest 2',
+          description: "",
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/7_facilities/";
+            },},{id: "facilities-vive-focus-3",
+          title: 'VIVE Focus 3',
+          description: "",
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/8_facilities/";
+            },},{id: "facilities-transcranial-direct-current-stimulation-tdcs",
+          title: 'Transcranial direct current stimulation (tDCS)',
+          description: "",
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/9_facilities/";
+            },},{id: "people-bojing-hou",
+          title: 'Bojing HOU',
+          description: "Multimodal Emotion Recognition",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Bojing_HOU/";
+            },},{id: "people-chengliang-ping",
+          title: 'Chengliang Ping',
+          description: "Colour Perception in Product-Service System (PSS) Evaluation",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Chengliang_Ping/";
+            },},{id: "people-dehan-jia",
+          title: 'Dehan JIA',
+          description: "Built Environment and Human Health",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Dehan_JIA/";
+            },},{id: "people-lina-xu",
+          title: 'Lina XU',
+          description: "Colour Cognition / Neuroergonomics / Physiological Computing",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Lina_XU/";
+            },},{id: "people-shaobo-yan",
+          title: 'Shaobo YAN',
+          description: "Color Psychology, Emotion",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Shaobo_YAN/";
+            },},{id: "people-wenan-li",
+          title: 'Wenan LI',
+          description: "Lighting environment and creativity",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Wenan_LI/";
+            },},{id: "people-xingkai-wang",
+          title: 'Xingkai WANG',
+          description: "Colour Design, Collaborative Design / Human Factors Engineering",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Xingkai_WANG/";
+            },},{id: "people-yufan-li",
+          title: 'Yufan Li',
+          description: "Computational Aesthetics",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Yufan_Li/";
+            },},{id: "people-yuqi-liang",
+          title: 'Yuqi LIANG',
+          description: "Cognitive Science",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Yuqi_LIANG/";
+            },},{id: "people-yuyang-jiang",
+          title: 'Yuyang JIANG',
+          description: "Expressive art and cognitive therapy",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Yuyang_JIANG/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
