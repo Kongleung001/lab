@@ -2,7 +2,7 @@
 layout: page
 title: Functional Near-infrared Spectroscopy (FNIRS)
 description: 
-img: assets/img/facilities/fac1.png
+img: assets/img/facilities/fac1.jpg
 importance: 1
 category: work
 related_publications: false

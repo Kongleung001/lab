@@ -2,7 +2,7 @@
 layout: page
 title: Oculus Quest 2
 description: 
-img: assets/img/facilities/fac7.png
+img: assets/img/facilities/fac7.jpg
 importance: 1
 category: work
 related_publications: false
