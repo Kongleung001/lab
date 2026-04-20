@@ -156,12 +156,6 @@ newsletter:
 collections:
   books:
     output: true
-  news:
-    defaults:
-      layout: post
-    output: true
-  projects:
-    output: true
   people:
     output: true
   facilities:
