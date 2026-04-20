@@ -5,7 +5,7 @@ description: Expressive art and cognitive therapy
 img: assets/img/people/Yuyang_JIANG.png
 redirect:  
 year:  
-category:  
+category: PhD Students  
 email:  
 linkedin:  
 google_scholar:  
