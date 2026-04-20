@@ -35,16 +35,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/lab/books/the_godfather/";
-            },},{id: "facilities-bambu-lab-x1-carbon-combo",
-          title: 'Bambu Lab X1 - Carbon Combo',
-          description: "",
-          section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/10_facilities/";
-            },},{id: "facilities-optical-tracking-and-neuronavigation-system",
-          title: 'Optical Tracking and Neuronavigation System',
-          description: "",
-          section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/11_facilities/";
             },},{id: "facilities-functional-near-infrared-spectroscopy-fnirs",
           title: 'Functional Near-infrared Spectroscopy (FNIRS)',
           description: "",
@@ -85,11 +75,6 @@ ninja.data = [{
           description: "",
           section: "Facilities",handler: () => {
               window.location.href = "/lab/facilities/8_facilities/";
-            },},{id: "facilities-transcranial-direct-current-stimulation-tdcs",
-          title: 'Transcranial direct current stimulation (tDCS)',
-          description: "",
-          section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/9_facilities/";
             },},{id: "people-bojing-hou",
           title: 'Bojing HOU',
           description: "Multimodal Emotion Recognition",
