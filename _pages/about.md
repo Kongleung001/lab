@@ -2,7 +2,7 @@
 #layout: about
 layout: about_banner
 banner: "/assets/img/web_banner.jpg"   #this does not specify the lcoation of top banner, the lcoation need to be set in _custom this just can not be empty.
-banner_title:    "CROWN Lab @ HKUST(GZ)s"
+banner_title:    "CROWN Lab @ HKUST(GZ)"
 banner_subline:  ""
 title: About
 permalink: /
