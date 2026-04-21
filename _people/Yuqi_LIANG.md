@@ -4,12 +4,11 @@ title: Yuqi LIANG
 description: Cognitive Science
 img: assets/img/people/Yuqi_LIANG.jpg
 redirect: /people/
-year:  
+year:  2009
 category: PhD Students
 email: 
 linkedin:
 google_scholar: 
 orcid:  
-github_username: 
-id: 9
+github_username:  
 ---

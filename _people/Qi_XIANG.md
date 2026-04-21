@@ -4,12 +4,11 @@ title: Qi XIANG
 description: Color Science and Material Perception in Fashion Textiless
 img: assets/img/people/Qi_XIANG.png
 redirect:  
-year:  
+year:  2004
 category: PhD Students 
 email:  
 linkedin:  
 google_scholar:  
 orcid:  
-github_username: 
-id: 4
+github_username:  
 ---
