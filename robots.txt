@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://kongleung001.github.io/lab/sitemap.xml
+Sitemap: https://crownlab-hkustgz.github.io/web/sitemap.xml

@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "Kongleung001/lab",
+    "data-repo": "crownlab-hkustgz/web",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",

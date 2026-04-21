@@ -7,134 +7,134 @@ ninja.data = [{
     title: "About",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/lab/";
+      window.location.href = "/web/";
     },
   },{id: "nav-people",
           title: "People",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/lab/people/";
+            window.location.href = "/web/people/";
           },
         },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/lab/publications/";
+            window.location.href = "/web/publications/";
           },
         },{id: "nav-facilities",
           title: "Facilities",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/lab/facilities/";
+            window.location.href = "/web/facilities/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/lab/books/the_godfather/";
+              window.location.href = "/web/books/the_godfather/";
             },},{id: "facilities-led-cube-light-sources-i14-r27-thousliye-s",
           title: 'LED Cube light sources (I14-R27, THOUSLIYE).s',
           description: "",
           section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/0_facilities/";
+              window.location.href = "/web/facilities/0_facilities/";
             },},{id: "facilities-functional-near-infrared-spectroscopy-fnirs",
           title: 'Functional Near-infrared Spectroscopy (FNIRS)',
           description: "",
           section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/1_facilities/";
+              window.location.href = "/web/facilities/1_facilities/";
             },},{id: "facilities-tobii-pro-nano-eye-tracker",
           title: 'Tobii Pro Nano Eye Tracker',
           description: "",
           section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/2_facilities/";
+              window.location.href = "/web/facilities/2_facilities/";
             },},{id: "facilities-shimmer3-gsr-kit",
           title: 'Shimmer3 GSR+ Kit',
           description: "",
           section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/3_facilities/";
+              window.location.href = "/web/facilities/3_facilities/";
             },},{id: "facilities-jeti-specbos-1211uv-2",
           title: 'Jeti specbos 1211UV-2',
           description: "",
           section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/4_facilities/";
+              window.location.href = "/web/facilities/4_facilities/";
             },},{id: "facilities-konica-minolta-cm-17d",
           title: 'Konica Minolta CM-17d',
           description: "",
           section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/5_facilities/";
+              window.location.href = "/web/facilities/5_facilities/";
             },},{id: "facilities-color-clibration-tool-datacolor-spyder",
           title: 'Color Clibration Tool Datacolor Spyder',
           description: "",
           section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/6_facilities/";
+              window.location.href = "/web/facilities/6_facilities/";
             },},{id: "facilities-oculus-quest-2",
           title: 'Oculus Quest 2',
           description: "",
           section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/7_facilities/";
+              window.location.href = "/web/facilities/7_facilities/";
             },},{id: "facilities-vive-focus-3",
           title: 'VIVE Focus 3',
           description: "",
           section: "Facilities",handler: () => {
-              window.location.href = "/lab/facilities/8_facilities/";
+              window.location.href = "/web/facilities/8_facilities/";
             },},{id: "people-bojing-hou",
           title: 'Bojing HOU',
           description: "Multimodal Emotion Recognition",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Bojing_HOU/";
+              window.location.href = "/web/people/Bojing_HOU/";
             },},{id: "people-chengliang-ping",
           title: 'Chengliang Ping',
           description: "Colour Perception in Product-Service System (PSS) Evaluation",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Chengliang_Ping/";
+              window.location.href = "/web/people/Chengliang_Ping/";
             },},{id: "people-dehan-jia",
           title: 'Dehan JIA',
           description: "Built Environment and Human Health",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Dehan_JIA/";
+              window.location.href = "/web/people/Dehan_JIA/";
             },},{id: "people-lina-xu",
           title: 'Lina XU',
           description: "Colour Cognition / Neuroergonomics / Physiological Computing",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Lina_XU/";
+              window.location.href = "/web/people/Lina_XU/";
             },},{id: "people-qi-xiang",
           title: 'Qi XIANG',
           description: "Color Science and Material Perception in Fashion Textiless",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Qi_XIANG/";
+              window.location.href = "/web/people/Qi_XIANG/";
             },},{id: "people-shaobo-yan",
           title: 'Shaobo YAN',
           description: "Color Psychology, Emotion",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Shaobo_YAN/";
+              window.location.href = "/web/people/Shaobo_YAN/";
             },},{id: "people-wenan-li",
           title: 'Wenan LI',
           description: "Lighting environment and creativity",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Wenan_LI/";
+              window.location.href = "/web/people/Wenan_LI/";
             },},{id: "people-xingkai-wang",
           title: 'Xingkai WANG',
           description: "Colour Design, Collaborative Design / Human Factors Engineering",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Xingkai_WANG/";
+              window.location.href = "/web/people/Xingkai_WANG/";
             },},{id: "people-yufan-li",
           title: 'Yufan Li',
           description: "Computational Aesthetics",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Yufan_Li/";
+              window.location.href = "/web/people/Yufan_Li/";
             },},{id: "people-yuqi-liang",
           title: 'Yuqi LIANG',
           description: "Cognitive Science",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Yuqi_LIANG/";
+              window.location.href = "/web/people/Yuqi_LIANG/";
             },},{id: "people-yuyang-jiang",
           title: 'Yuyang JIANG',
           description: "Expressive art and cognitive therapy",
           section: "People",handler: () => {
-              window.location.href = "/lab/people/Yuyang_JIANG/";
+              window.location.href = "/web/people/Yuyang_JIANG/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
