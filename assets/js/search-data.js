@@ -35,6 +35,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/lab/books/the_godfather/";
+            },},{id: "facilities-led-cube-light-sources-i14-r27-thousliye-s",
+          title: 'LED Cube light sources (I14-R27, THOUSLIYE).s',
+          description: "",
+          section: "Facilities",handler: () => {
+              window.location.href = "/lab/facilities/0_facilities/";
             },},{id: "facilities-functional-near-infrared-spectroscopy-fnirs",
           title: 'Functional Near-infrared Spectroscopy (FNIRS)',
           description: "",
@@ -95,6 +100,11 @@ ninja.data = [{
           description: "Colour Cognition / Neuroergonomics / Physiological Computing",
           section: "People",handler: () => {
               window.location.href = "/lab/people/Lina_XU/";
+            },},{id: "people-qi-xiang",
+          title: 'Qi XIANG',
+          description: "Color Science and Material Perception in Fashion Textiless",
+          section: "People",handler: () => {
+              window.location.href = "/lab/people/Qi_XIANG/";
             },},{id: "people-shaobo-yan",
           title: 'Shaobo YAN',
           description: "Color Psychology, Emotion",
