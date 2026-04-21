@@ -7,7 +7,7 @@ banner_subline:  ""
 title: About
 permalink: /
 subtitle:
-hire_banner_title: "We are looking for enthusiastic candidates to conduct PhD research. If you are interested in joining us, please contact luwenyu@hkust-gz.edu.cn"
+hire_banner_title: ""
 
 
 # profile:
@@ -34,13 +34,13 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
-
+# We are looking for enthusiastic candidates to conduct PhD research. If you are interested in joining us, please contact luwenyu@hkust-gz.edu.cn
 ---
 
 
-Welcome to the CROWN Lab at The Hong Kong University of Science and Technology (Guangzhou). Led by Dr. Luwen Yu, we conduct evidence-based colour research at the intersection of design, psychology, optics, statistics, data science, and AI. Our work focuses on understanding how colour and visual environments shape human perception, cognition, behaviour, and wellbeing. We combine behavioural experiments, multimodal measurements, and computational approaches to investigate human responses to colour across digital media, built environments, and interactive contexts. Our mission is to advance human-centred and evidence-based colour research, and to translate this knowledge into design, technology, and real-world applications.
+# Welcome to the CROWN Lab at The Hong Kong University of Science and Technology (Guangzhou). Led by Dr. Luwen Yu, we conduct evidence-based colour research at the intersection of design, psychology, optics, statistics, data science, and AI. Our work focuses on understanding how colour and visual environments shape human perception, cognition, behaviour, and wellbeing. We combine behavioural experiments, multimodal measurements, and computational approaches to investigate human responses to colour across digital media, built environments, and interactive contexts. Our mission is to advance human-centred and evidence-based colour research, and to translate this knowledge into design, technology, and real-world applications.
  
-We welcome students from a wide range of backgrounds, including design, psychology, optics, statistics, data science, and AI.
+We welcome students from a wide range of backgrounds, including design, psychology, optics, statistics, data science, and AI. If you are interested in joining us, please contact luwenyu@hkust-gz.edu.cn
 
 
 <!-- Swiper CSS: 使用 Liquid 标签修复路径 -->   
