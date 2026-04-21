@@ -5,7 +5,7 @@ title: People
 description: 
 nav: true
 nav_order: 1
-display_categories: [PhD Students]
+display_categories: [PhD Students, Mphil Studentss]
 # display_categories: [Principal Investigator, Postdocs, PhD Students, Master's Students, Undergraduates, Visiting Students, Alumni]
 ---
 
