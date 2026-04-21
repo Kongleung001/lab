@@ -5,7 +5,7 @@ title: People
 description: 
 nav: true
 nav_order: 1
-display_categories: [Principal Investigator, PhD Students]
+display_categories: [PhD Students]
 # display_categories: [Principal Investigator, Postdocs, PhD Students, Master's Students, Undergraduates, Visiting Students, Alumni]
 ---
 
@@ -18,7 +18,7 @@ display_categories: [Principal Investigator, PhD Students]
     <h2 class="category">{{ category }}</h2>
   </a>
   {%- assign categorized_people = site.people | where: "category", category -%}
-  {%- assign sorted_people = categorized_people | sort: "year" %}
+  {%- assign sorted_people = categorized_people | sort: "id" %}
   <!-- Generate cards for each people -->
   <div class="row">
     {%- for people in sorted_people -%}
