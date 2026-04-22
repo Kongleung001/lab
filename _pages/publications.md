@@ -7,6 +7,7 @@ nav: true
 nav_order: 4
 ---
  
+Selected Journal Publications
 
 <!-- _pages/publications.md -->
 
