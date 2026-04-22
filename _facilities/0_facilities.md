@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LED Cube light sources (I14-R27, THOUSLIYE).s
+title: LED Cube light sources (I14-R27, THOUSLIYE).
 description: 
 img: assets/img/facilities/fac0.jpg
 importance: 1
