@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/web/people/";
           },
-        },{id: "nav-selected-journal-publications",
-          title: "Selected Journal Publications",
+        },{id: "nav-publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -28,7 +28,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/web/_pages/facilities/";
+            window.location.href = "/web/facilities/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
