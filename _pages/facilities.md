@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Facilities
-permalink:  
+permalink:  /facilities/
 description:
 nav: true
 nav_order: 5
