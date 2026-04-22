@@ -1,12 +1,12 @@
 ---
 layout: page
-title: VIVE Focus 3
+title: Munsell Book of Color
 description: 
 img: assets/img/facilities/fac9.jpg
 importance: 10
 category: work
 related_publications: false
-redirect:  
+redirect:  /facilities/
 ---
 
 <!-- Every project has a beautiful feature showcase page.
