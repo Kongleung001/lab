@@ -3,7 +3,7 @@ layout: page
 title: Tobii Pro Nano Eye Tracker
 description: 
 img: assets/img/facilities/fac2.png
-importance: 1
+importance: 4
 category: work
 related_publications: false
 redirect:  
