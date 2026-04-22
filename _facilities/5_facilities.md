@@ -3,7 +3,7 @@ layout: page
 title: Konica Minolta CM-17d
 description: 
 img: assets/img/facilities/fac5.jpg
-importance: 1
+importance: 6
 category: work
 related_publications: false
 redirect:  
