@@ -9,34 +9,40 @@ layout: default
   <header class="hero full-bleed hero--top banner-hero" data-banner="{{ hero | relative_url }}">
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        
         <div class="swiper-slide">
-          <img src="{{ '/assets/img/banner/TMS_banner1.jpg' | relative_url }}" alt="Banner" class="w-100" />
+          <img src="{{ '/assets/img/banner/TMS_banner1.jpg' | relative_url }}" alt="TMS Banner" class="w-100" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/assets/img/banner/TMS_banner2.jpg' | relative_url }}" alt="Banner" class="w-100" />
+          <img src="{{ '/assets/img/banner/TMS_banner2.jpg' | relative_url }}" alt="TMS Banner" class="w-100" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/assets/img/banner/TMS_banner3.jpg' | relative_url }}" alt="Banner" class="w-100" />
+          <img src="{{ '/assets/img/banner/TMS_banner3.jpg' | relative_url }}" alt="TMS Banner" class="w-100" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/assets/img/banner/TMS_banner4.jpg' | relative_url }}" alt="Banner" class="w-100" />
+          <img src="{{ '/assets/img/banner/TMS_banner4.jpg' | relative_url }}" alt="TMS Banner" class="w-100" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/assets/img/banner/TMS_banner5.jpg' | relative_url }}" alt="Banner" class="w-100" />
+          <img src="{{ '/assets/img/banner/TMS_banner5.jpg' | relative_url }}" alt="TMS Banner" class="w-100" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/assets/img/banner/TMS_banner6.jpg' | relative_url }}" alt="Banner" class="w-100" />
+          <img src="{{ '/assets/img/banner/TMS_banner6.jpg' | relative_url }}" alt="TMS Banner" class="w-100" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/assets/img/banner/TMS_banner7.jpg' | relative_url }}" alt="Banner" class="w-100" />
+          <img src="{{ '/assets/img/banner/TMS_banner7.jpg' | relative_url }}" alt="TMS Banner" class="w-100" />
         </div>
       </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
     </div>  
-    
+    <div class="banner-overlay">
+      <div class="banner-title">
+        {{ default: "" }}
+      </div> 
+      <p class="banner-sub">
+        {{ default: "" }}
+      </p>
+    </div>
   </header>
 {% endif %}
 
