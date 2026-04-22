@@ -80,6 +80,11 @@ ninja.data = [{
           description: "",
           section: "Facilities",handler: () => {
               window.location.href = "/web/facilities/8_facilities/";
+            },},{id: "facilities-vive-focus-3",
+          title: 'VIVE Focus 3',
+          description: "",
+          section: "Facilities",handler: () => {
+              window.location.href = "/web/facilities/9_facilities/";
             },},{id: "people-bojing-hou",
           title: 'Bojing HOU',
           description: "Multimodal Emotion Recognition",
