@@ -3,7 +3,7 @@ layout: page
 title: VIVE Focus 3
 description: 
 img: assets/img/facilities/fac8.png
-importance: 1
+importance: 9
 category: work
 related_publications: false
 redirect:  
