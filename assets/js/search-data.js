@@ -100,6 +100,11 @@ ninja.data = [{
           description: "Colour Cognition / Neuroergonomics / Physiological Computing",
           section: "People",handler: () => {
               window.location.href = "/web/people/Lina_XU/";
+            },},{id: "people-luwen-yu",
+          title: 'Luwen_Yu',
+          description: "Assistent Professor in HKUST(GZ), Research Interests in Colour Science and Design / Colour Perception / Colour Behaviour / Colour Cognition / Colour Psychology",
+          section: "People",handler: () => {
+              window.location.href = "/web/people/Luwen_Yu/";
             },},{id: "people-qi-xiang",
           title: 'Qi XIANG',
           description: "Color Science and Material Perception in Fashion Textiless",
