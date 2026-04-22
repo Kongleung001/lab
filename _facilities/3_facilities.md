@@ -3,7 +3,7 @@ layout: page
 title: Shimmer3 GSR+ Kit
 description: 
 img: assets/img/facilities/fac3.jpg
-importance: 2
+importance: 3
 category: work
 related_publications: false
 redirect:  
