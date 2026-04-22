@@ -36,7 +36,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/web/books/the_godfather/";
             },},{id: "facilities-led-cube-light-sources-i14-r27-thousliye",
-          title: 'LED Cube light sources (I14-R27, THOUSLIYE).',
+          title: 'LED Cube light sources (I14-R27, THOUSLIYE)',
           description: "",
           section: "Facilities",handler: () => {
               window.location.href = "/web/facilities/0_facilities/";
