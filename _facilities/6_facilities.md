@@ -3,7 +3,7 @@ layout: page
 title: Color Clibration Tool Datacolor Spyder
 description: 
 img: assets/img/facilities/fac6.png
-importance: 1
+importance: 7
 category: work
 related_publications: false
 redirect:  
