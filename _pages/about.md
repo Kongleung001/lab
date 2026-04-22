@@ -34,13 +34,9 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
-# We are looking for enthusiastic candidates to conduct PhD research. If you are interested in joining us, please contact luwenyu@hkust-gz.edu.cn
 ---
-
-
  
 We welcome students from a wide range of backgrounds, including design, psychology, optics, statistics, data science, and AI. If you are interested in joining us, please contact luwenyu@hkust-gz.edu.cn
-
 
 <!-- Swiper CSS: 使用 Liquid 标签修复路径 -->   
 <link rel="stylesheet" href="{{ '/assets/css/swiper-bundle.min.css' | relative_url }}"/>
