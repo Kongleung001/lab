@@ -6,7 +6,7 @@ img: assets/img/facilities/fac7.jpg
 importance: 8
 category: work
 related_publications: false
-redirect:  
+redirect:  /facilities/
 ---
 
 <!-- Every project has a beautiful feature showcase page.
